@@ -1,7 +1,7 @@
 ﻿/*
-注释嵌套是错误的 /**/ balabalabala
-注释嵌套是错误的
-注释嵌套是错误的
+The way to add comments is error! /**/ balabalabala
+The way to add comments is error!
+The way to add comments is error!
 */
 
 int main()
