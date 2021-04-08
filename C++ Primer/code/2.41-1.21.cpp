@@ -11,9 +11,12 @@ struct Sales_data
 int main()
 {
 	Sales_data item1, item2;
-	double totoalRevenue;
+	double totoalRevenue, price;
 	int totalCnt;
-	std::cin >> item1.bookNo >> item1.units_sold >> item1.revenue >> item2.bookNo >> item2.units_sold >> item2.revenue;
+	std::cin >> item1.bookNo >> item1.units_sold >> price;
+	item1.revenue = price * item1.units_sold;
+	std::cin >> item2.bookNo >> item2.units_sold >> price;
+	item2.revenue = price * item2.units_sold;
 	if (item1.bookNo == item2.bookNo)
 	{
 		totalCnt = item1.units_sold + item2.units_sold;
