@@ -15,6 +15,6 @@ int main()
 	c = 42;
 	d = 42;  // Error
 	e = 42;  // Error
-	g = 42;
+	g = 42;  // Error
 	return 0;
 }
